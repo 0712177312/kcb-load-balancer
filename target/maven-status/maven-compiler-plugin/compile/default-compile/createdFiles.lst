@@ -1,0 +1,3 @@
+com\load\balancer\RestConfigs.class
+com\load\balancer\LoadBalancerApplication.class
+com\load\balancer\LoadBalancerConfiguration.class

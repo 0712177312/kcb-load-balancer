@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: LoadBalancer
+
+server:
+  port: 8889
+
+biometrics:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8090,localhost:9092,localhost:9999
+    ServerListRefreshInterval: 15000
